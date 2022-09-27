@@ -1,0 +1,8 @@
+.box {
+    &:hover {
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+        transform: scale(1.04);
+    }
+}

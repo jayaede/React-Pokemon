@@ -1,0 +1,176 @@
+.App {
+  height: auto;
+  width: auto;
+  margin: 10px;
+  background-color: black;
+}
+
+.title {
+  background-color: white;
+  color: grey;
+  padding-left: 20px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.section1 {
+  padding: 10px;
+  width: 40%;
+}
+
+.section2 {
+  height: fit-content;
+  width: 40%;
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
+.box {
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgb(241, 236, 236);
+}
+
+.grid {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: white;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.type {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.abilities {
+  border-radius: 3px;
+  border: 1px solid black;
+  color: black;
+  background-color: green;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.weakness {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.weakness-data {
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+  background-color: #f366b9;
+  padding-left: 3px;
+  padding-right: 3px;
+
+}
+
+.data {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  display: flex;
+}
+
+.li-items {
+  list-style-type: none;
+  margin-top: 10%;
+}
+
+.loadmore-button {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.noresults {
+  border: 2px solid #E3350D;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.noresults-list {
+  color: gray;
+}
+
+.advsearch {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.adv-card {
+  background-color: gray;
+  color: white;
+  padding: 15px;
+}
+
+.adv-list {
+  border: 2px solid #a4a4a4;
+  border-radius: 5px;
+  font-family: "Flexo-Medium", arial, sans-serif;
+  cursor: pointer;
+  margin: 10px;
+  padding: 0% 4% 0% 4%;
+  text-align: center;
+  
+}
+
+.adv-buttons {
+  margin-left: 40px;
+
+}
+
+.adv-showtoogle {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 2px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.adv-hidetoogle {
+  margin-left: 7%;
+  margin-right: 7%;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.filter {
+  font-family: "Flexo-Bold", arial, sans-serif;
+  background: #F2F2F2;
+  border-radius: 14px;
+  color: #313131;
+  line-height: 30px;
+  width: 28px;
+  cursor: pointer;
+  float: left;
+  height: 26px;
+  margin: 0 0.75em 0 0;
+  text-align: center;
+}
+

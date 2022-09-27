@@ -1,0 +1,29 @@
+.title {
+    font-family: "Flexo-Medium",arial,sans-serif;
+    color: #212121;
+    font-size: 225%;
+    text-align: center;
+}
+
+.card-info {
+    height: auto;
+    width: auto;
+    margin: 10px;
+    background-color: black;
+}
+
+.card-one {
+    background-color: white;
+    color: white;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.data {
+    margin-left: 10%;
+}
+
+.weakness-data {
+    padding-left: 4%;
+    padding-right: 4%;
+}
