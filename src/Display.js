@@ -5,6 +5,7 @@ import './App.css';
 import './box.scss';
 import dropdownimage from './dropdown image upside.jfif'
 import Rendercard from './Rendercard';
+import SearchOutlined from '@material-ui/icons/Search';
 
 export default function Display() {
     const [searchinput, setSearchInput] = useState('');
@@ -98,7 +99,9 @@ export default function Display() {
                 <div className='section1'>
                     <h4>Name or Number</h4>
                     <input type="text" id="name" onChange={(e) => setSearchInput(e.target.value)} />&nbsp;
-                    <Button type='submit' variant='secondary' onClick={(e) => getData(e, searchinput)}>search</Button>
+                    <Button type='submit' variant='danger' onClick={(e) => getData(e, searchinput)}>
+                        <SearchOutlined />
+                    </Button>
                     <p>Use the Advanced Search to explore Pokémon by type, weakness, Ability, and more!</p>
                 </div>
                 <div className='section2'>
@@ -107,7 +110,7 @@ export default function Display() {
             </div>
             <div className='adv-showtoogle'>
                 <span><b>Show Advanced Search&nbsp;</b></span>
-                <img style={{ 'width': '15px', 'height': '15px' }} src='https://tse1.mm.bing.net/th/id/OIP.hh62lwarRlHILH1gLovszQHaHa?w=172&h=180&c=7&r=0&o=5&pid=1.7' alt ='' onClick={handleSearchToggle} />
+                <img style={{ 'width': '15px', 'height': '15px' }} src='https://tse1.mm.bing.net/th/id/OIP.hh62lwarRlHILH1gLovszQHaHa?w=172&h=180&c=7&r=0&o=5&pid=1.7' alt='' onClick={handleSearchToggle} />
             </div>
             {advSearchToggleButton ?
                 <Form>

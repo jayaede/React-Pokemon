@@ -1,0 +1,26 @@
+.Card {
+    min-height: '200px';
+    background-color: lightgray;
+    margin: auto;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.content {
+    margin-left: 15%;
+    margin-right: 20%;
+}
+
+.header {
+    display: flex;
+    position: sticky;
+    justify-content: end;
+    flex-wrap:wrap; 
+    color: black;
+}
+
+.button {
+    border-radius: 50px;
+    margin-right: 5px;
+}

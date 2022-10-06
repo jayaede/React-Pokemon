@@ -30,9 +30,10 @@
 .section2 {
   height: fit-content;
   width: 40%;
-  background-color: green;
+  background-color: #4dad5b;
   color: white;
   padding: 10px;
+  border-radius: 5px;
 }
 
 .box {
